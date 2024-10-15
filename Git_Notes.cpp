@@ -76,9 +76,12 @@ git init vs git clone
 	git remote add origin url
 	
 2) Pushing to remote repository or updating a remote repository
+	git push origin master
+	
+***************************************************************************************
+github Coworker
 
-3) 
-
+git clone url <directoryName>
 
 
 
