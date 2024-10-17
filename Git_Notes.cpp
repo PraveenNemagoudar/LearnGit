@@ -83,7 +83,18 @@ github Coworker
 
 git clone url <directoryName>
 
-     
+Fetch and be upto date with Server
+
+1) git fetch <origin> 
+2) a) git log vs git log --remotes
+	if there is any difference, then merge and move to origin\master branch 
+   b) git merge <origin\master>
+// now u will be in sync with server
+	
+NOTE: master is default branch in LOCAL
+	  origin\master is default brnach in Remote webhost
+	  
+	  
 
 		
 	
