@@ -78,6 +78,8 @@ git init vs git clone
 2) Pushing to remote repository or updating a remote repository
 	git push origin master
 	
+Note : remote branches are not automatically updated, u need to push manually
+
 ***************************************************************************************
 github Coworker
 
@@ -93,6 +95,9 @@ Fetch and be upto date with Server
 	
 NOTE: master is default branch in LOCAL
 	  origin\master is default brnach in Remote webhost
+	  
+***Working at same in same branch*********
+git pull origin master or (git fetch and git merge origin\master)
 	  
 	  
 
